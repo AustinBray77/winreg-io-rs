@@ -1,3 +1,12 @@
+/*
+ *  writer.rs
+ *
+ *  Description: This module contains code for writing in .reg files from the windows registry
+ *  (via the RegWriter struct) and util functions for translating between winreg and regashii values.
+ *
+ *  Created By: AustinBray77
+ */
+
 use std::{cmp::min, error::Error, path::Path};
 
 use regashii::{Key, KeyName, Registry, Value, ValueName};

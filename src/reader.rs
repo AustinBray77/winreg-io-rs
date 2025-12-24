@@ -1,3 +1,12 @@
+/*
+ *  reader.rs
+ *
+ *  Description: This module contains code for reading in .reg files to the windows registry
+ *  (via the RegReader struct) and util functions for translating between regashii and winreg values.
+ *
+ *  Created By: AustinBray77
+ */
+
 use std::{error::Error, path::Path};
 
 use regashii::{KeyName, Kind, Registry};
