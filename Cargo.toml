@@ -1,0 +1,11 @@
+[package]
+name = "winreg-io-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+regashii = "0.4.0"
+winreg = { version="0.55.0", features=["transactions"] }
+
+[lib]
+path = "lib.rs"
