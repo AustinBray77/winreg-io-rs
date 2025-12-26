@@ -8,4 +8,4 @@ regashii = "0.4.0"
 winreg = { version="0.55.0", features=["transactions"] }
 
 [lib]
-path = "lib.rs"
+path = "src/lib.rs"

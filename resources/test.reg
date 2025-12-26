@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\winreg_io_rs\test]
+@="Test Keys"
+"sz-test"="test"
+"dword-test"=dword:00000001
+"qword-test"=hex(b):0100000000000000
+"binary-test"=hex:01,02,03,04,05
+"multi-sz-test"=hex(7):74,00,65,00,73,00,74,00,31,00,00,00,74,00,65,00,73,00,74,00,32,00,00,00,00,00
+"expand-sz-test"=hex(2):25,00,50,00,41,00,54,00,48,00,25,00,00,00
+"none-test"=hex(0):
+"le-test"=hex(4):01,02,03,04
+"be-test"=hex(5):01,02,03,04
+"link-test"=hex(6):74,00,65,00,73,00,74,00,00,00
+"resource-list-test"=hex(8):00,00,00,00
+"full-resource-descriptor-test"=hex(9):00,00,00,00
+"resource-requirements-list-test"=hex(a):00,00,00,00
+"qword-little-endian-test"=hex(b):0100000000000000
