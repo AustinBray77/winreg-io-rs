@@ -6,6 +6,7 @@ use winreg::{HKEY, RegValue, enums::*};
 const U32SIZE: usize = 4;
 const U64SIZE: usize = 8;
 
+// Test comment
 pub fn u32_to_u8s(val: u32) -> [u8; U32SIZE] {
     let mut output = [0_u8; U32SIZE];
 
